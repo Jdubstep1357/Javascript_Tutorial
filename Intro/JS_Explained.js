@@ -1,4 +1,4 @@
-/* 
+/*
 
 Javascript is most popular language
 - Build web  / Mogile Apps
@@ -9,5 +9,7 @@ ECMAScript - Specificaion / Standards
 Javascript - Programming Language
 
 
-
+text here
 */
+
+// This is text
