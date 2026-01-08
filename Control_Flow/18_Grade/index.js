@@ -16,7 +16,7 @@
 
 const marks = [90, 90, 75];
 
-console.log(calculateGrade(marks)); g
+console.log(calculateGrade(marks));
 function calculateGrade(marks) {
     let sum = 0;
 
