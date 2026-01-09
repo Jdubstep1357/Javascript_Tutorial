@@ -14,6 +14,7 @@ function showPrimes(limit) {
     }
 }
 
+// checks if number is prime or not
 function isPrime(number) {
     for (let factor = 2; factor < number; factor++) {
         // find way to check against prime numbers
