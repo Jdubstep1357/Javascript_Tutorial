@@ -19,3 +19,4 @@ const circle = {
 };
 
 circle.draw();
+console.log(circle.radius);
