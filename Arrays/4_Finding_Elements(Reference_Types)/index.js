@@ -8,7 +8,7 @@ const courses = [
 
 // callback function
 const course = courses.find(function (course) {
-    course.name === 'a';
+    return course.name === 'a';
 });
 
 // displays index of referenced course. will return -1 if undefined
