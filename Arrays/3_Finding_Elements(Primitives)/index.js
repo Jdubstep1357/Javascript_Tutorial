@@ -11,8 +11,3 @@ console.log(numbers.indexOf(1, 2));
 // shows index of array
 // returns true
 console.log(numbers.indexOf(1, 2)).log(numbers.indexOf(1) !== -1);
-
-// shows first number on left
-console.log(numbers.indexOf(1));
-// shows where to start index, ie: at position 2 (3)
-console.log(numbers.indexOf(1, 2))
