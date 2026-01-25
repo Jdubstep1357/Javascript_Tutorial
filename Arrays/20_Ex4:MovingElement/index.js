@@ -22,7 +22,14 @@ function move(array, index, offset) {
 
     // clone array and then place it back at the right position
     // remove one item to access part of array
+
+    // goes to index
+    // removes 1 element
+    // mutates output
+    // returns array of what was removed
+    // [0] returns a number. without it it is just [number]
     const element = output.splice(index, 1)[0];
+    // inserts element at new position
     output.splice(position, 0, element);
     return output;
 
