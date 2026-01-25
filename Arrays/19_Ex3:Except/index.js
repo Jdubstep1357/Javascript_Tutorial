@@ -1,7 +1,7 @@
 const numbers = [1, 2, 3, 4];
 
 // takes 2 array with values we want excluded
-const output = except(numbers, [1]);
+const output = except(numbers, [4]);
 
 console.log(output);
 
@@ -26,13 +26,3 @@ function except(array, excluded) {
 // from original array
 
 
-// for reference
-
-const numbers234 = [1, 2, 3, 4];
-
-// adds to end of array
-// End 
-numbers.push();
-// Deletes
-const last = numbers234.pop();
-console.log(numbers234);
