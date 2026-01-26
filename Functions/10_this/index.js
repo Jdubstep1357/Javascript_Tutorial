@@ -7,7 +7,7 @@ const video = {
     tags: ['a', 'b', 'c'],
     showTags() {
         this.tags.forEach(function (tag) {
-            console.log(this, tag);
+            console.log(this.title, tag);
             // 2nd this is outside of curly bracket tells forEact
             // when you run callback use this object inside of it
         }, this);
